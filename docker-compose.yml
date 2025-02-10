@@ -8,6 +8,9 @@ services:
     ports:
         - "8080:8080"
 
+networks:
+  01-plans_mysql_net:
+    driver: bridge
 
 
 
