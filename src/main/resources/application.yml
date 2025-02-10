@@ -1,0 +1,21 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: mini-project-01
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: raj
+    password: raj
+    driverClassName: org.h2.Driver
+project:
+  messages:
+    planSaveSuccess: plan saved successfully
+    planSaveFail: plan saving failed
+    planUpdateSuccess: plan updated successfully
+    planUpdateFailed: plan updation failed
+    planDeletionSuccess: plan deleted successfully
+    planDeletionFailed: plan detetion failed
+    planStatusChangeSuccess: plan Status changed successfully
+    planStatusChangeFail: plan status change failed				
