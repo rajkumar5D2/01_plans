@@ -104,8 +104,8 @@ public class PlanRestController {
 		}
 		return new ResponseEntity<String>(msg,HttpStatus.OK);
 	}
-//	@GetMapping("/welcome")
-//	public String display() {
-//		return "welcome!!!"; 
-//	}
+	@GetMapping("/welcome")
+	public String display() {
+		return "welcome!!!"; 
+	}
 }

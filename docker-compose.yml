@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  application:
+    image: 01_plans_image
+    networks:
+        - 01_plans_mysql_net
+    ports:
+        - "8080:8080"
+
+
+
+
+# volumes: null
+
+
